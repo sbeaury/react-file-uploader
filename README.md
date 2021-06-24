@@ -50,4 +50,4 @@ Dev.to [@sbeaury](https://dev.to/sbeaury)
 
 ## License
 
-[MIT](https://github.com/sbeaury/react-file-uploader/blob/master/LICENCE.md)
+[MIT](https://github.com/sbeaury/react-file-uploader/blob/main/LICENSE)
