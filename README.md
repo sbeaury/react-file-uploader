@@ -2,12 +2,12 @@
   <br>
   <a href="https://github.com/sbeaury/react-file-uploader">
   <br>
- Dev Chapters
+ React file uploader
   <br>
 </h1>
 
 <h4 align="center">
- Image-uploader :outbox:
+ Image-uploader :outbox_tray:
   <br><br>
   Made with React and Firebase.
 </h4>
