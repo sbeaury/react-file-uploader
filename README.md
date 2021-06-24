@@ -7,7 +7,7 @@
 </h1>
 
 <h4 align="center">
- Image-uploader :outbox_tray:
+ Image uploader :outbox_tray:
   <br><br>
   Made with React and Firebase.
 </h4>
