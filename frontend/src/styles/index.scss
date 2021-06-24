@@ -1,0 +1,21 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans");
+
+/* Resets */
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  font-family: "Poppins", "Segoe UI", "Roboto", "Oxygen", "Helvetica Neue",
+    serif;
+}
+
+/* Components Styles */
+@import "./App.scss";
+@import "./Dropzone.scss";
+@import "./ProgressBar.scss";

@@ -1,0 +1,186 @@
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400.36px;
+  height: 454.96px;
+  background: #fafafb;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+}
+
+.container-title {
+  display: flex;
+  align-items: flex-start;
+  min-height: 20%;
+}
+
+.container-error-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  span {
+    color: #cc0000;
+    font-size: 40px;
+  }
+
+  .title {
+    margin-top: 0;
+  }
+}
+
+.container-success-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+
+  span {
+    color: #219653;
+    font-size: 40px;
+  }
+
+  .title {
+    margin-top: 0;
+  }
+}
+
+.title {
+  /* Upload your image */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+}
+
+.subtitle {
+  /* File should be Jpeg, Png,... */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: -0.035em;
+  color: #828282;
+}
+
+.text-or {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.035em;
+  color: #bdbdbd;
+}
+
+.btn-file-picker {
+  border: none;
+  border-radius: 4px;
+  background: #2f80ed;
+  border-radius: 8px;
+  padding: 8px 16px 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: -0.035em;
+  color: #ffffff;
+}
+
+.container-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  min-height: 40%;
+}
+
+.preview-image {
+  width: 100%;
+  height: 70%;
+  border-radius: 12px;
+}
+.container-url {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 5%;
+  position: relative;
+  margin-top: 2rem;
+}
+
+.text-url {
+  position: absolute;
+  width: 100%;
+  height: 34px;
+  background: #f6f8fb;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+}
+
+.btn-copy {
+  position: absolute;
+  right: 2px;
+  border: none;
+  border-radius: 8px;
+  background: #2f80ed;
+  border-radius: 8px;
+  padding: 9px 20px 9px 20px;
+  cursor: pointer;
+  width: 74px;
+  height: 30px;
+  transition: background-color 0.3s ease;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: -0.035em;
+  color: #ffffff;
+}
